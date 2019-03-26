@@ -1,7 +1,7 @@
 # Android-learning
 ## Solution to Dalvik byteCode tutorial
 * link: https://github.com/appetizerio/team-info/wiki/Dalvik字节码实验教程
-## ** 1. 通过反射修改private成员 **
+## **1. 通过反射修改private成员**
 ```Java
 package test;
 
