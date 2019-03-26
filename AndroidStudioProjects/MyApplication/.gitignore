@@ -6,5 +6,4 @@
 /build
 /captur
 .externalNativeBuild
-app/release/
 app/libs/
