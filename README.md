@@ -1,6 +1,9 @@
 # Android-learning
 ## Solution to Dalvik byteCode tutorial
 # 1. 通过反射修改private成员
+
+## 1.1【实验】反射获取`haha`,修改haha的值
+
 ```Java
 package test;
 
@@ -16,15 +19,15 @@ class Foo {
 
 public class Main {
     public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
-        Foo fooObj = new Foo();
         Field privateIntField = Foo.class.getDeclaredField("haha");
         privateIntField.setAccessible(true);
+
+        Foo fooObj = new Foo();
         privateIntField.set(fooObj, 2);
         System.out.println("fieldValue = " + privateIntField.get(fooObj));
     }
 }
 ```
-## 1.1【实验】反射获取`haha`,修改haha的值
 
 
 
