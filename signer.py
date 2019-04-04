@@ -7,6 +7,6 @@ if len(sys.argv) != 3:
 
 cmd = "java -jar %s sign --ks keys/hellokey.jks %s" % (sys.argv[1], sys.argv[2])
 os.system(cmd)
-print("resign verify:\n")
+print("\nresign verify:\n")
 cmd = "java -jar %s verify -v %s" % (sys.argv[1], sys.argv[2])
 os.system(cmd)

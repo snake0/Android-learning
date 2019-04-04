@@ -37,7 +37,20 @@ public class Main {
 
 ## 2.1【实验】实现一个python脚本，能够给apk重签名（先取出原有签名，再用自己的密钥重新签名）
 
+```python
+import sys
+import os
 
+if len(sys.argv) != 3:
+    print("usage: python signer.py [apksigner.jar dir] [*.apk dir]")
+    sys.exit(0)
+
+cmd = "java -jar %s sign --ks keys/hellokey.jks %s" % (sys.argv[1], sys.argv[2])
+os.system(cmd)
+print("\nresign verify:\n")
+cmd = "java -jar %s verify -v %s" % (sys.argv[1], sys.argv[2])
+os.system(cmd)
+```
 
 # 3. 使用smali/baksmali查看Dalvik字节码
 https://github.com/JesusFreke/smali
