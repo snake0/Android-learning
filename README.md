@@ -29,8 +29,6 @@ public class Main {
 }
 ```
 
-
-
 # 2. 熟练APK重签名
 * https://developer.android.com/studio/command-line/apksigner
 * 了解APK签名结构 https://www.jianshu.com/p/a27783a713f2
