@@ -57,15 +57,74 @@ https://github.com/JesusFreke/smali
 [这是smali源码的简明教程](https://www.52pojie.cn/thread-395689-1-1.html)
 
 ## 3.1【实验】下载去哪儿apk，baksmali之后看看源码，尝试读一读
+如下是out/bolts/Capture.smali文件中的内容
 
+```smali
+# virtual methods
+.method public get()Ljava/lang/Object;
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()TT;"
+        }
+    .end annotation
 
+    .prologue
+    .line 28
+    iget-object v0, p0, Lbolts/Capture;->value:Ljava/lang/Object;
+
+    return-object v0
+.end method
+
+.method public set(Ljava/lang/Object;)V
+    .registers 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)V"
+        }
+    .end annotation
+
+    .prologue
+    .line 32
+    iput-object p1, p0, Lbolts/Capture;->value:Ljava/lang/Object;
+
+    .line 33
+    return-void
+.end method
+```
 
 
 # 4. 熟练使用jadx
 * https://github.com/skylot/jadx/
 * 使用反编译模式看逻辑，使用fallback模式（文件->设置）看字节码
-
+  
 ## 4.1【实验】使用jadx，反编译去哪儿apk，先读java源码,再读一读对应的字节码
+
+如下是out/bolts/Capture.smali文件对应的Java代码
+```Java
+public T get() {
+    return this.value;
+}
+
+public void set(T t) {
+    this.value = t;
+}
+```
+fallback模式
+```Java
+public T get() {
+    r1 = this;
+    r0 = r1.value;
+    return r0;
+}
+
+public void set(T r1) {
+    r0 = this;
+    r0.value = r1;
+    return;
+}
+```
+
 
 
 
