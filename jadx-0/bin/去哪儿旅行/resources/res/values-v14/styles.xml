@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="spider_AppBaseTheme">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="spider_Theme_App">
+        <item name="android:buttonStyle">@style/spider_ButtonWhite</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:checkboxStyle">@style/spider_StyleCheckBox</item>
+        <item name="android:editTextStyle">@style/spider_StyleEditText</item>
+        <item name="android:listViewStyle">@style/spider_StyleListView</item>
+        <item name="android:textViewStyle">@style/spider_StyleTextView</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/spider_checkbox_selector</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+    <style name="spider_Theme_Float">
+        <item name="android:buttonStyle">@style/spider_ButtonWhite</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:checkboxStyle">@style/spider_StyleCheckBox</item>
+        <item name="android:editTextStyle">@style/spider_StyleEditText</item>
+        <item name="android:listViewStyle">@style/spider_StyleListView</item>
+        <item name="android:textViewStyle">@style/spider_StyleTextView</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/spider_checkbox_selector</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateVisible|adjustResize</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/transparent</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+</resources>

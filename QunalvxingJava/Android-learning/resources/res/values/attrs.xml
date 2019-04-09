@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="orientation">
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+    <attr name="rowCount" format="integer">
+    </attr>
+    <attr name="columnCount" format="integer">
+    </attr>
+    <attr name="useDefaultMargins" format="boolean">
+    </attr>
+    <attr name="alignmentMode">
+        <enum name="alignBounds" value="0" />
+        <enum name="alignMargins" value="1" />
+    </attr>
+    <attr name="rowOrderPreserved" format="boolean">
+    </attr>
+    <attr name="columnOrderPreserved" format="boolean">
+    </attr>
+    <attr name="layout_row" format="integer">
+    </attr>
+    <attr name="layout_rowSpan" format="integer">
+        <item name="?0x1000001" value="1" />
+    </attr>
+    <attr name="layout_rowWeight" format="float">
+    </attr>
+    <attr name="layout_column" format="integer">
+    </attr>
+    <attr name="layout_columnSpan" format="integer">
+        <item name="?0x1000001" value="1" />
+    </attr>
+    <attr name="layout_columnWeight" format="float">
+    </attr>
+    <attr name="layout_gravity">
+        <flag name="top" value="30" />
+        <flag name="bottom" value="50" />
+        <flag name="left" value="3" />
+        <flag name="right" value="5" />
+        <flag name="center_vertical" value="10" />
+        <flag name="fill_vertical" value="70" />
+        <flag name="center_horizontal" value="1" />
+        <flag name="fill_horizontal" value="7" />
+        <flag name="center" value="11" />
+        <flag name="fill" value="77" />
+        <flag name="clip_vertical" value="80" />
+        <flag name="clip_horizontal" value="8" />
+        <flag name="start" value="800003" />
+        <flag name="end" value="800005" />
+    </attr>
+    <attr name="thumbDrawable" format="reference">
+    </attr>
+    <attr name="thumbColor" format="reference|color">
+    </attr>
+    <attr name="thumbMargin" format="reference|dimension">
+    </attr>
+    <attr name="thumbMarginTop" format="reference|dimension">
+    </attr>
+    <attr name="thumbMarginBottom" format="reference|dimension">
+    </attr>
+    <attr name="thumbMarginLeft" format="reference|dimension">
+    </attr>
+    <attr name="thumbMarginRight" format="reference|dimension">
+    </attr>
+    <attr name="thumbWidth" format="reference|dimension">
+    </attr>
+    <attr name="thumbHeight" format="reference|dimension">
+    </attr>
+    <attr name="thumbRadius" format="reference|dimension">
+    </attr>
+    <attr name="backRadius" format="reference|dimension">
+    </attr>
+    <attr name="backDrawable" format="reference">
+    </attr>
+    <attr name="backColor" format="reference|color">
+    </attr>
+    <attr name="fadeBack" format="boolean">
+    </attr>
+    <attr name="backMeasureRatio" format="float">
+    </attr>
+    <attr name="animationDuration" format="integer">
+    </attr>
+    <attr name="tintColor" format="reference|color">
+    </attr>
+    <attr name="pub_react_maxHeight" format="dimension">
+    </attr>
+    <attr name="pub_react_maxWidth" format="dimension">
+    </attr>
+    <attr name="yg_alignContent">
+        <enum name="center" value="2" />
+        <enum name="auto" value="0" />
+        <enum name="flex_start" value="1" />
+        <enum name="flex_end" value="3" />
+        <enum name="stretch" value="4" />
+        <enum name="baseline" value="5" />
+    </attr>
+    <attr name="yg_alignItems">
+        <enum name="center" value="2" />
+        <enum name="auto" value="0" />
+        <enum name="flex_start" value="1" />
+        <enum name="flex_end" value="3" />
+        <enum name="stretch" value="4" />
+        <enum name="baseline" value="5" />
+    </attr>
+    <attr name="yg_alignSelf">
+        <enum name="center" value="2" />
+        <enum name="auto" value="0" />
+        <enum name="flex_start" value="1" />
+        <enum name="flex_end" value="3" />
+        <enum name="stretch" value="4" />
+        <enum name="baseline" value="5" />
+    </attr>
+    <attr name="yg_aspectRatio" format="float">
+    </attr>
+    <attr name="yg_borderLeft" format="dimension">
+    </attr>
+    <attr name="yg_borderTop" format="dimension">
+    </attr>
+    <attr name="yg_borderRight" format="dimension">
+    </attr>
+    <attr name="yg_borderBottom" format="dimension">
+    </attr>
+    <attr name="yg_borderStart" format="dimension">
+    </attr>
+    <attr name="yg_borderEnd" format="dimension">
+    </attr>
+    <attr name="yg_borderHorizontal" format="dimension">
+    </attr>
+    <attr name="yg_borderVertical" format="dimension">
+    </attr>
+    <attr name="yg_borderAll" format="dimension">
+    </attr>
+    <attr name="yg_direction">
+        <enum name="inherit" value="0" />
+        <enum name="ltr" value="1" />
+        <enum name="rtl" value="2" />
+    </attr>
+    <attr name="yg_display">
+        <enum name="flex" value="0" />
+        <enum name="none" value="1" />
+    </attr>
+    <attr name="yg_flex" format="float">
+    </attr>
+    <attr name="yg_flexBasis" format="string|float">
+    </attr>
+    <attr name="yg_flexDirection">
+        <enum name="column" value="0" />
+        <enum name="column_reverse" value="1" />
+        <enum name="row" value="2" />
+        <enum name="row_reverse" value="3" />
+    </attr>
+    <attr name="yg_flexGrow" format="float">
+    </attr>
+    <attr name="yg_flexShrink" format="float">
+    </attr>
+    <attr name="yg_height" format="string|dimension">
+    </attr>
+    <attr name="yg_justifyContent">
+        <enum name="center" value="1" />
+        <enum name="flex_start" value="0" />
+        <enum name="flex_end" value="2" />
+        <enum name="space_between" value="3" />
+        <enum name="space_around" value="4" />
+    </attr>
+    <attr name="yg_marginLeft" format="string|dimension">
+    </attr>
+    <attr name="yg_marginTop" format="string|dimension">
+    </attr>
+    <attr name="yg_marginRight" format="string|dimension">
+    </attr>
+    <attr name="yg_marginBottom" format="string|dimension">
+    </attr>
+    <attr name="yg_marginStart" format="string|dimension">
+    </attr>
+    <attr name="yg_marginEnd" format="string|dimension">
+    </attr>
+    <attr name="yg_marginHorizontal" format="string|dimension">
+    </attr>
+    <attr name="yg_marginVertical" format="string|dimension">
+    </attr>
+    <attr name="yg_marginAll" format="string|dimension">
+    </attr>
+    <attr name="yg_maxHeight" format="string|dimension">
+    </attr>
+    <attr name="yg_maxWidth" format="string|dimension">
+    </attr>
+    <attr name="yg_minHeight" format="string|dimension">
+    </attr>
+    <attr name="yg_minWidth" format="string|dimension">
+    </attr>
+    <attr name="yg_overflow">
+        <enum name="visible" value="0" />
+        <enum name="hidden" value="1" />
+        <enum name="scroll" value="2" />
+    </attr>
+    <attr name="yg_paddingLeft" format="string|dimension">
+    </attr>
+    <attr name="yg_paddingTop" format="string|dimension">
+    </attr>
+    <attr name="yg_paddingRight" format="string|dimension">
+    </attr>
+    <attr name="yg_paddingBottom" format="string|dimension">
+    </attr>
+    <attr name="yg_paddingStart" format="string|dimension">
+    </attr>
+    <attr name="yg_paddingEnd" format="string|dimension">
+    </attr>
+    <attr name="yg_paddingHorizontal" format="string|dimension">
+    </attr>
+    <attr name="yg_paddingVertical" format="string|dimension">
+    </attr>
+    <attr name="yg_paddingAll" format="string|dimension">
+    </attr>
+    <attr name="yg_positionLeft" format="string|dimension">
+    </attr>
+    <attr name="yg_positionTop" format="string|dimension">
+    </attr>
+    <attr name="yg_positionRight" format="string|dimension">
+    </attr>
+    <attr name="yg_positionBottom" format="string|dimension">
+    </attr>
+    <attr name="yg_positionStart" format="string|dimension">
+    </attr>
+    <attr name="yg_positionEnd" format="string|dimension">
+    </attr>
+    <attr name="yg_positionHorizontal" format="string|dimension">
+    </attr>
+    <attr name="yg_positionVertical" format="string|dimension">
+    </attr>
+    <attr name="yg_positionAll" format="string|dimension">
+    </attr>
+    <attr name="yg_positionType">
+        <enum name="relative" value="0" />
+        <enum name="absolute" value="1" />
+    </attr>
+    <attr name="yg_width" format="string|dimension">
+    </attr>
+    <attr name="yg_wrap">
+        <enum name="no_wrap" value="0" />
+        <enum name="wrap" value="1" />
+    </attr>
+    <attr name="scalableType">
+        <enum name="center" value="9" />
+        <enum name="none" value="0" />
+        <enum name="fitXY" value="1" />
+        <enum name="fitStart" value="2" />
+        <enum name="fitCenter" value="3" />
+        <enum name="fitEnd" value="4" />
+        <enum name="leftTop" value="5" />
+        <enum name="leftCenter" value="6" />
+        <enum name="leftBottom" value="7" />
+        <enum name="centerTop" value="8" />
+        <enum name="centerBottom" value="10" />
+        <enum name="rightTop" value="11" />
+        <enum name="rightCenter" value="12" />
+        <enum name="rightBottom" value="13" />
+        <enum name="leftTopCrop" value="14" />
+        <enum name="leftCenterCrop" value="15" />
+        <enum name="leftBottomCrop" value="16" />
+        <enum name="centerTopCrop" value="17" />
+        <enum name="centerCrop" value="18" />
+        <enum name="centerBottomCrop" value="19" />
+        <enum name="rightTopCrop" value="20" />
+        <enum name="rightCenterCrop" value="21" />
+        <enum name="rightBottomCrop" value="22" />
+        <enum name="startInside" value="23" />
+        <enum name="centerInside" value="24" />
+        <enum name="endInside" value="25" />
+    </attr>
+    <attr name="qrn_gravity">
+        <enum name="left" value="3" />
+        <enum name="right" value="5" />
+        <enum name="center" value="17" />
+    </attr>
+    <attr name="qrn_textSize" format="dimension">
+    </attr>
+    <attr name="qrn_textColorOut" format="color">
+    </attr>
+    <attr name="qrn_textColorCenter" format="color">
+    </attr>
+    <attr name="qrn_dividerColor" format="color">
+    </attr>
+</resources>
