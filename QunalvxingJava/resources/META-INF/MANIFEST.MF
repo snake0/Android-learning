@@ -1,0 +1,963 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_51 (Oracle Corporation)
+
+Name: res/drawable-nodpi-v4/spider_home_welcome_bg.png
+SHA1-Digest: TGdlhDJygwmQlC1OcMfXFi5WYKQ=
+
+Name: res/anim/spider_slide_out_right.xml
+SHA1-Digest: gsbl2VNyrGGN9KDZCtClITLcaoM=
+
+Name: assets/main_topbtn_down.9.png
+SHA1-Digest: VnXcx1vInp4SHjuI2lVi1+EbFSE=
+
+Name: lib/armeabi/libq_atom_longtrip.so
+SHA1-Digest: 2VvOwkIUKSNUnKh9gwbHcF5j9fU=
+
+Name: lib/armeabi/libdexinterpret.so
+SHA1-Digest: Hp/9Ib4VKscyAwruqrLlvqoal9A=
+
+Name: assets/cfg/a/mode_1/map.sdkrs
+SHA1-Digest: vqBwKo5QRAAEWl5VFdAoJ/EQbj8=
+
+Name: res/drawable-xhdpi-v4/video_battery_level_90.png
+SHA1-Digest: Q6Pa9gkhpjKda6/2YPWgieIzo9c=
+
+Name: assets/Icon_mark6.png
+SHA1-Digest: sLqXOe/Pkf8RC0la1z7FEJtfrbw=
+
+Name: res/raw/model
+SHA1-Digest: s8YVMdOnhdivFAIYMElA5bJINNM=
+
+Name: assets/unicode_to_hanyu_pinyin
+SHA1-Digest: VsW4H4V79T+KZVjmtv09g6HXq/A=
+
+Name: lib/armeabi/libcnn.so
+SHA1-Digest: +vFelIQAsTEtBykszRaCk5qPOXI=
+
+Name: assets/Icon_line_node.png
+SHA1-Digest: dK/CGB9imvWReQfRrkGjiDX2mkI=
+
+Name: res/drawable-xhdpi-v4/video_back_tiny_normal.png
+SHA1-Digest: S1WbC1FR0yFfvOSpNu+MvcrZ0Cg=
+
+Name: assets/cfg/a/DVDirectory.cfg
+SHA1-Digest: +mFmSYYUM/UDBMpVnGgLwUsWbWk=
+
+Name: lib/armeabi/libstatic-webp.so
+SHA1-Digest: +2FkW7NfdwlQh8VD2/C1/X0Azfg=
+
+Name: res/drawable/video_bottom_bg.9.png
+SHA1-Digest: W1yju4ayxTJKu7Gx3v/TyKfU0L8=
+
+Name: res/anim/spider_slide_in_left.xml
+SHA1-Digest: sKK9BeKHJgMqKl9cIfJNRF82wPg=
+
+Name: res/drawable-xhdpi-v4/remote_atom_atte_ic_launcher.png
+SHA1-Digest: jQ5gHhACYBU2DOcDkj8gzX6jYhM=
+
+Name: assets/Icon_mark10.png
+SHA1-Digest: brhelZiL1AZTlMx8OTzOldR2G7A=
+
+Name: lib/armeabi/libavcodec.so
+SHA1-Digest: OHY4AoftmgrSBUn8F+hrf9cYOL4=
+
+Name: res/raw/eye_blink.mp3
+SHA1-Digest: UFChi2w8xDze4bbUXjx+Pjz7S9c=
+
+Name: lib/armeabi/libtechain.so
+SHA1-Digest: EH0N6hzCFhM4FhfyAPGILyzHElc=
+
+Name: res/raw/idscan_surname.txt
+SHA1-Digest: cYVcscqGUZfq5DGhvd3mgbsYlXo=
+
+Name: res/raw/mouth_open.mp3
+SHA1-Digest: XrtJPwmzCwnRRun7mVHCVZ+uJsM=
+
+Name: res/raw/idscan_nation.json
+SHA1-Digest: BDnXKjIk5a8yr0uj5MzUN2hWJMY=
+
+Name: res/drawable-xhdpi-v4/spider_btn_check_label_background.9.png
+SHA1-Digest: 3/YtTLgybhsMUbNIyQHkAJSTLw8=
+
+Name: lib/armeabi/libyuvutil.so
+SHA1-Digest: oy9ZclaCg1THxfeoFkXmadiJVzY=
+
+Name: res/xml/shortcuts.xml
+SHA1-Digest: v+fpnitZtm4puxyJZ7WjZWajzXI=
+
+Name: res/anim/spider_slide_in_right.xml
+SHA1-Digest: ds49fF2//pH0t5viK+IllPKEMYY=
+
+Name: lib/armeabi/libq_atom_user_center.so
+SHA1-Digest: LsXzEIAPEA0277jFbMvnhwvFTG8=
+
+Name: lib/armeabi/libj2v8.so
+SHA1-Digest: B+73YdnYw9a4zGh3y4OgsqvQCfU=
+
+Name: assets/icon_road_red_arrow.png
+SHA1-Digest: uEoDWUsxaFh/8MDvT6kB9z0jAO0=
+
+Name: res/raw/failed.mp3
+SHA1-Digest: e5j2S5eJQ3LApyOZNOejspVFYfU=
+
+Name: resources.arsc
+SHA1-Digest: b2ycf43va47eQxaGKWQxYDDxG2s=
+
+Name: lib/armeabi/libavformat.so
+SHA1-Digest: nIhvPsqiNXGwyaZCElDZZK7CpBA=
+
+Name: AndroidManifest.xml
+SHA1-Digest: Y/+BCYXzSTdSom/Zz2HZ/igc7gw=
+
+Name: assets/marker2.png
+SHA1-Digest: YyoJYC9kJ6MGdCWm1jQ0p3O0WAc=
+
+Name: lib/armeabi/libq_lib_qav.so
+SHA1-Digest: A7+aMOWR2kaemVwehWRG1uBM3oc=
+
+Name: assets/cfg/a/mode_1/traffic.sdkrs
+SHA1-Digest: WNIXvM46Wk0irXLtdK1qfpcht4g=
+
+Name: res/layout/spider_splash_page.xml
+SHA1-Digest: goJZqSLR4aQIfwc97Lpbfdlsf7Q=
+
+Name: res/drawable-xhdpi-v4/video_back_tiny_pressed.png
+SHA1-Digest: sueowkT85KmcSDgRUPeKVoIB/jw=
+
+Name: res/drawable/video_seek_thumb_normal.xml
+SHA1-Digest: gOFVkCMc2y2CdDZqXj5+TuDaX+A=
+
+Name: lib/armeabi/libq_lib_imsdk.so
+SHA1-Digest: wLgp3IXDbHE0eNxGT3h+y0vlhYE=
+
+Name: lib/armeabi/libq_atom_travelgonglue.so
+SHA1-Digest: W6X/JDhH4BdKDAfdBG9uGJvhDeM=
+
+Name: lib/armeabi/libq_atom_sight.so
+SHA1-Digest: ijSK6K2vFp+LVqZCoEhHQHcj60s=
+
+Name: assets/Icon_mark3.png
+SHA1-Digest: 10OVxu8Hw/b6BCt9qISWaAsJCEU=
+
+Name: res/drawable-xhdpi-v4/video_battery_level_50.png
+SHA1-Digest: SQ6ANC40qal3bHey1gcGVJApsx0=
+
+Name: lib/armeabi/libBaiduMapSDK_map_v5_1_0.so
+SHA1-Digest: 5K3bLMq3yqDPB5TxZJfnpdf5sDY=
+
+Name: lib/armeabi/libgoblin_3_1_14.so
+SHA1-Digest: AUQb/psckPEUmQmSwPsLWcfduS8=
+
+Name: res/drawable-xhdpi-v4/video_loading_bg.png
+SHA1-Digest: 4SN3Rmmg7Acak93I5D5hKVpF9yY=
+
+Name: res/drawable-xhdpi-v4/spider_menu_hotel.png
+SHA1-Digest: 1hdoIOZW0uAqZYxvX6g5NuHPlus=
+
+Name: res/layout/layout_video_standard.xml
+SHA1-Digest: p1ZPxf+xW/mPhQcmTWNO8j5KXvA=
+
+Name: res/color/spider_button_skip_txcolor_selector.xml
+SHA1-Digest: m/wmGGQJN+Z7cOCyQKfpc/Y5IYc=
+
+Name: lib/armeabi/libbd_etts.so
+SHA1-Digest: bB6Z+p1pUm5Bcp9o5CSpe2KvNgU=
+
+Name: assets/Icon_bus_station.png
+SHA1-Digest: ijMexAQ0II7KUGYEiaaiHPUGw44=
+
+Name: res/drawable/video_seek_thumb_pressed.xml
+SHA1-Digest: eNREQIH5Yu7sq0Y8Nno4yavBrXU=
+
+Name: res/drawable/common_btn_title_left_bg_selector.xml
+SHA1-Digest: /iEGysqm1+LkqQvO7iVnsMUv2Hg=
+
+Name: res/drawable/video_bottom_progress.xml
+SHA1-Digest: mKAreeoJSmNVy9x7mCZyFbi3YiE=
+
+Name: lib/armeabi/libBaiduMapSDK_base_v5_1_0.so
+SHA1-Digest: VLg/mWBLvudwQrTlS4MN9b8HVMA=
+
+Name: assets/main_icon_zoomin.png
+SHA1-Digest: MDS6SJ5t2e2iKxiwctOiuZ38u6U=
+
+Name: assets/cfg/a/CustomIndex
+SHA1-Digest: G4f5Cx9k/84f27ZwN4T6GIn29nc=
+
+Name: lib/armeabi/liblgt.so
+SHA1-Digest: ZzFZY7yolgM6crVLLMfnxvLcSsQ=
+
+Name: res/layout/spider_splash_dialog.xml
+SHA1-Digest: jBifVK7MP5OvBSQb7rix9dLmINI=
+
+Name: assets/cfg/a/mode_1/traffic.sty
+SHA1-Digest: D9XS/sWGima2jkhQ5ubfxK4Irq0=
+
+Name: res/drawable/n_b_s1.xml
+SHA1-Digest: 5VKnuPCxS1AgU6wKFxVcU0+ef7o=
+
+Name: assets/Icon_walk_route.png
+SHA1-Digest: /ms0l+rN0Zkzr/GD/nbaJPgD5Zs=
+
+Name: res/drawable/common_titlebar_bg.xml
+SHA1-Digest: SDhj4GZjhGdqxEMfsk+wBMZ6vMc=
+
+Name: res/drawable-xhdpi-v4/video_enlarge.png
+SHA1-Digest: wUFVJkReIeu5hyKGXVu8NCx+Ybk=
+
+Name: res/raw/yaw.mp3
+SHA1-Digest: h9MkDiMYtpzWYWgdITOe7FFLso8=
+
+Name: assets/cfg/a/DVHotcity.cfg
+SHA1-Digest: BsZNVfvQGQrt2gc6hybnDXk1hjo=
+
+Name: res/drawable-mdpi-v4/b_b.png
+SHA1-Digest: mUAyHMXfg+GJZ6UxRENB8r/0Eag=
+
+Name: res/anim/spider_side_out_to_bottom.xml
+SHA1-Digest: UiUMxmy5HFMUhIXXz4KoSafYaKw=
+
+Name: res/drawable/video_dialog_progress_bg.xml
+SHA1-Digest: w1DUH4xCU7o0t+17byz36TKGk2U=
+
+Name: lib/armeabi/libbdtts.so
+SHA1-Digest: eMKLOjR1d06HaVr4/ItemtU4Nvk=
+
+Name: lib/armeabi/libq_lib_asmdispatcher.so
+SHA1-Digest: CHdLk4tZcMYzGGFZIoLwz7GtGN0=
+
+Name: res/drawable/spider_round_left_bg.xml
+SHA1-Digest: oI3QC3jp8YORnlptCUQc3WHCoJ0=
+
+Name: lib/armeabi/libffmpegcmd.so
+SHA1-Digest: DvdwAIE5k2h72gFSQt/FSWSnWwc=
+
+Name: assets/cfg/a/DVStreet.cfg
+SHA1-Digest: bHjDdw5yZE18NXN2vi+As7AadRk=
+
+Name: lib/armeabi/libq_atom_mc.so
+SHA1-Digest: Z0k17JNn81VfkiW0ugcX/RIfqz4=
+
+Name: lib/armeabi/libdiffpatch.so
+SHA1-Digest: FAJIfiY63Z9uiautD1sFC0wopiE=
+
+Name: assets/cfg/a/mode_1/reduct.sty
+SHA1-Digest: lCJCCf2Cxk+ix51IggBtRdTqpi8=
+
+Name: lib/armeabi/libq_lib_ad.so
+SHA1-Digest: SSHG8eFsT9r/77Fsb9To0EMA58c=
+
+Name: res/drawable-xhdpi-v4/spider_ic_notify.png
+SHA1-Digest: Mw7c2iwV09lwEbvTme+h45uTEns=
+
+Name: res/drawable-xhdpi-v4/video_pause_pressed.png
+SHA1-Digest: lvm1rFk+l20Exg9y0Exo0whziG4=
+
+Name: lib/armeabi/liblocSDK7b.so
+SHA1-Digest: B8FsZTt5Z5vEYrfn0g5AMO1WObY=
+
+Name: res/layout/layout_video_dialog_progress.xml
+SHA1-Digest: obKqMGtuLiYnXoqfgzxNXWxNP/Q=
+
+Name: res/drawable/spider_round_write_disable_shape.xml
+SHA1-Digest: kGgIyoJHf3mxB8aTYOJ+T3dojlM=
+
+Name: assets/Icon_mark7.png
+SHA1-Digest: sKKD7pJZIL+05Zj8WfN2Iu+BqSU=
+
+Name: res/drawable/spider_shape_hotel.xml
+SHA1-Digest: ARzD/54lHljewM3Fi15kdCgUveg=
+
+Name: res/drawable/spider_round_white_bg.xml
+SHA1-Digest: QT6gzh7EkgZAhkvSpwW3RARBO5Q=
+
+Name: lib/armeabi/libq_atom_hotel.so
+SHA1-Digest: sLe6Isv86ucSq26PkBMEq6rwEm8=
+
+Name: lib/armeabi/libgifimage.so
+SHA1-Digest: HkONqklPlF9NiaQbHXjUQ1yLH2k=
+
+Name: assets/host.json
+SHA1-Digest: o+tpKRollOS5vSP9nPzivZTfEUs=
+
+Name: res/drawable/n_b_s3.xml
+SHA1-Digest: jzSrPBrL1pTf6QxfVIxV1d5m86c=
+
+Name: assets/cfg/idrres/DVIndoor.cfg
+SHA1-Digest: r/l5NRl8fBzdZJpxTU1SiZtizpc=
+
+Name: res/layout/spider_splash_privacy_dialog.xml
+SHA1-Digest: LMtCaRn7jZvT7XsZ22M5zJJG/Yg=
+
+Name: res/layout/layout_video_dialog_volume.xml
+SHA1-Digest: z5Gzm7jQYxgOifXe/U4rUcLGHfU=
+
+Name: res/raw/well_done.mp3
+SHA1-Digest: UwPOUqQ8F5ioNsUcUB+FEtt+pvs=
+
+Name: res/layout/spider_splash_textview.xml
+SHA1-Digest: 7rvKGo/L7Kz/LWA8y71OLUgFzNo=
+
+Name: res/anim/spider_side_out_to_top.xml
+SHA1-Digest: lCA2/m06ehE1ix/9vuo3Cy9Bkxs=
+
+Name: assets/cfg/a/DVSDirectory.cfg
+SHA1-Digest: KxFVP4e5108GRb2EV1Qm8iOoDwY=
+
+Name: lib/armeabi/libq_atom_groupbuy.so
+SHA1-Digest: RPWJriaiT35OlR+T9W1R8zh+lc4=
+
+Name: res/drawable-xhdpi-v4/b_b.png
+SHA1-Digest: lU5wZNCqE/CB9+qJ6rAf9lx1Dfg=
+
+Name: res/drawable/spider_dispatcher_loading_background.xml
+SHA1-Digest: 2RmqPk+qt2oElZL/JurSLglPd1M=
+
+Name: res/color/spider_button_white_txcolor_selector.xml
+SHA1-Digest: Lsh/r40VeaKZHmaOBPrQSl7ezA8=
+
+Name: lib/armeabi/libimage.so
+SHA1-Digest: JClfqwueloZwl0c4Jm+crIXsXcM=
+
+Name: lib/armeabi/libq_atom_voip.so
+SHA1-Digest: QkxXs0p4o9kGhQ1z/cTnFW8VbqI=
+
+Name: lib/armeabi/libswscale.so
+SHA1-Digest: bOBZuzpNCnGWD8DRjafWuwfHruA=
+
+Name: lib/armeabi/libjsc.so
+SHA1-Digest: rsxoKMLscAYPSo0JTaJtUikKQ0A=
+
+Name: lib/armeabi/libq_atom_home.so
+SHA1-Digest: nQGDoM9Do884CG0ZfE+avMe37PQ=
+
+Name: res/drawable-xhdpi-v4/video_shrink.png
+SHA1-Digest: 2QH35BH91wOCMqEyaO1Yx2EHCBo=
+
+Name: assets/SDK_Default_Icon_Car.png
+SHA1-Digest: wd3gCdv/2+v1MBTzbFDk4zDZimg=
+
+Name: assets/cfg/idrres/baseindoormap.sty
+SHA1-Digest: 5lnCPBMJHAonHE3kyN8R2jz41no=
+
+Name: lib/armeabi/libagora-rtc-sdk-jni.so
+SHA1-Digest: GMwG0vryFXqWIoEO9I5qw1JmCL4=
+
+Name: res/drawable-xxhdpi-v4/b_b.png
+SHA1-Digest: i5IIJuwM2pyJ/BPlS7jxuwvRTJ4=
+
+Name: res/raw/success.mp3
+SHA1-Digest: zxdFir62FyJqi403OzMB4g7oZls=
+
+Name: assets/lineDashTexture.png
+SHA1-Digest: +/nYUlVgUpTAXggl82nRmgpS0Bw=
+
+Name: lib/armeabi/libq_lib_hy.so
+SHA1-Digest: Ng4hBzDZqyEn8ysa1E69XXuuuus=
+
+Name: assets/SDK_Default_Route_Texture_Bule_Arrow.png
+SHA1-Digest: /Mv48f606YCXMuYl6kjgbmI24AI=
+
+Name: res/drawable-xhdpi-v4/video_battery_level_30.png
+SHA1-Digest: fBh2Wlwm0p69GkMe/7a56RYSEPQ=
+
+Name: assets/SDK_Default_Traffic_Texture_SevereCongestion.png
+SHA1-Digest: jcc/PUuA84MdDvtpfykk5gSpQOE=
+
+Name: res/drawable-xhdpi-v4/idscan_passport.png
+SHA1-Digest: oep2l+TZDOLW12vB+QsTOtzcGKs=
+
+Name: res/drawable/video_bottom_seek_progress.xml
+SHA1-Digest: CeiiSKSVHnzFuRIIM1/b/MdvhOs=
+
+Name: res/drawable/spider_splash_jump.xml
+SHA1-Digest: gU3SKN2ZGcbCDaEo8rfJh9bAakI=
+
+Name: assets/wear_zoon_out.png
+SHA1-Digest: VdD6kRPc63Td6ZGefgMBwLPHhvg=
+
+Name: res/drawable-xhdpi-v4/spider_noti_pause.png
+SHA1-Digest: U2HBGFGiy18ouw+ZZp6hEAUqXkc=
+
+Name: res/anim/spider_slide_out_right_medium.xml
+SHA1-Digest: 2pUJ1CW28fwD2XpssbL/s5UHYPI=
+
+Name: assets/Icon_subway_station.png
+SHA1-Digest: 8FR6NAAChDPCs8r2j53QSLY4GQg=
+
+Name: res/drawable-xhdpi-v4/video_play_pressed.png
+SHA1-Digest: C06Yu7Vc+wpByy3TNJTA9or20AU=
+
+Name: assets/Icon_mark2.png
+SHA1-Digest: NHBeA/o9A//4UUN6/FBMPcIK0Yc=
+
+Name: assets/main_icon_zoomout_dis.png
+SHA1-Digest: m3GfohDDe+ge31OgT78dtXkbWWs=
+
+Name: res/drawable/video_loading.xml
+SHA1-Digest: bUpBw2Fm2i9qwdc4H1RooQJeL0c=
+
+Name: assets/Icon_road_nofocus.png
+SHA1-Digest: Uwg7gBCrh1S1FYmr4OscByLpvUg=
+
+Name: assets/ANDROIDD.RSA
+SHA1-Digest: UQ42lRWUBx/mFmsOFJGUn1XFaRw=
+
+Name: lib/armeabi/libdalvikpatch.so
+SHA1-Digest: Rmm379NL1iz7Rcg+lhb2luOFpSo=
+
+Name: res/raw/idscan_country_code.txt
+SHA1-Digest: reKsF5hWNBMz8WrnUNbYd0X3jp4=
+
+Name: lib/armeabi/libimgpre.so
+SHA1-Digest: jslmH0OfPu1WVgRpmWYCTFEZjQw=
+
+Name: assets/marker3.png
+SHA1-Digest: n6X2QcnJ1schG7VnQtchPDble8Y=
+
+Name: res/drawable-xhdpi-v4/spider_ic_launcher.png
+SHA1-Digest: hJaMWhRebjUT+oNs2RTFzkJ2iSA=
+
+Name: res/layout/layout_video_dialog_brightness.xml
+SHA1-Digest: 1ReD8EVuxOZ1b8k8+cukLH+PhIw=
+
+Name: lib/armeabi/liblivenessdetection_v2.4.2.so
+SHA1-Digest: OIXj8oJhlTQiOlXk6UuXlSL4eMI=
+
+Name: assets/dependencies.dps
+SHA1-Digest: T4wzDYB+6Sw+BRNy5wyVxDLTCSU=
+
+Name: res/drawable-xhdpi-v4/video_restart_pressed.png
+SHA1-Digest: IHm5qwyoiaKu/CWbh8wUYDFPy4Y=
+
+Name: lib/armeabi/libglog_init.so
+SHA1-Digest: sDoF1Uk50NkPJB4zooY06K+lTog=
+
+Name: lib/armeabi/libyuv_util.so
+SHA1-Digest: vSpau5loHqPVn84HvqDUJSM6TdI=
+
+Name: res/drawable-xhdpi-v4/spider_noti_proceed.png
+SHA1-Digest: j01YYwwtl654K+g7cNChXnRPQ1c=
+
+Name: lib/armeabi/libq_atom_collab.so
+SHA1-Digest: oyZLxund99dGRvLaV9HuD76M1sE=
+
+Name: res/color/spider_hint_color_selector.xml
+SHA1-Digest: kfzXnx/gWmSS85cndImU6wrSOK4=
+
+Name: res/drawable/spider_round_write_normal_shape.xml
+SHA1-Digest: TXmJ+nCEdBAWIMYnewA/j6o6bQg=
+
+Name: lib/armeabi/libq_atom_train.so
+SHA1-Digest: 1pKRugmNJJFxQ0C0Lj1/9bLAV5E=
+
+Name: lib/armeabi/libq_atom_qupush.so
+SHA1-Digest: GGGjq9Opw31PUgWW2HBQdZHTxjM=
+
+Name: org/apache/http/entity/mime/version.properties
+SHA1-Digest: qjOznv6vavswy6zLbu+j/9ZN6PY=
+
+Name: res/drawable-xhdpi-v4/video_backward_icon.png
+SHA1-Digest: 7Hj15gfxVku6Qj4CZjie9oi1gy4=
+
+Name: res/drawable-xhdpi-v4/spider_icon_hotel.png
+SHA1-Digest: vomrfKBSgekmilNggCez6Yxyu/Y=
+
+Name: lib/armeabi/libjingle_peerconnection_so.so
+SHA1-Digest: Uuj8dqlpxF61M374oO02m+3eqj8=
+
+Name: res/drawable-xhdpi-v4/spider_icon_flight.png
+SHA1-Digest: FZlmyaKPvgczeGyAhr0n3iLZTgU=
+
+Name: lib/armeabi/libq_lib_upgrader.so
+SHA1-Digest: MVRQhJE8bW2QShl+DAS/ikGVp3Q=
+
+Name: res/drawable-xhdpi-v4/video_forward_icon.png
+SHA1-Digest: BZdMxldbqaNaN9zX71VXDqXIH9c=
+
+Name: lib/armeabi/libq_atom_sv.so
+SHA1-Digest: 69heN3e1Q8bq0zXu8Ndt0OMDYXQ=
+
+Name: assets/main_bottombtn_down.9.png
+SHA1-Digest: kNR4pry92/OCOF/5HW1WIb6Q9CE=
+
+Name: res/drawable/spider_shape_vocation.xml
+SHA1-Digest: Mgh/BPLGmT7zi9B94d2FekJMrIU=
+
+Name: assets/logo_h.png
+SHA1-Digest: NiIXDIWMhuIXwHmFVSalyGsn3g0=
+
+Name: res/layout/remote_atom_atte_upgrade.xml
+SHA1-Digest: RNYnMOvtLujiG3OBT3S2CAfaOvU=
+
+Name: lib/armeabi/libimp_1_0.so
+SHA1-Digest: 28/IhGmtAo8tIzqhz+8JSdBj1dw=
+
+Name: lib/armeabi/libreactnativejnifb.so
+SHA1-Digest: gBZNPnFAjbD+WEwWYb4XJxg4aw4=
+
+Name: assets/Icon_mark8.png
+SHA1-Digest: vJHMIXsi8SPI0zapgfknlq2wAkE=
+
+Name: assets/icon_road_green_arrow.png
+SHA1-Digest: 7SiwhSFNOH0S3qFMlVc7ra7cVac=
+
+Name: res/drawable/video_click_play_selector.xml
+SHA1-Digest: EwKR11m5FnlN3c4PewQCMWRjO6k=
+
+Name: assets/icon_road_blue_arrow.png
+SHA1-Digest: iZ082ij5Px2QVyA4yuq8nZS8heM=
+
+Name: lib/armeabi/libswresample.so
+SHA1-Digest: t3J2uCuclSdgJITwEUfcdOETLdk=
+
+Name: lib/armeabi/libgnustl_shared.so
+SHA1-Digest: 2OdgcwRrKHBLxP3LMWHVAoDa0v0=
+
+Name: res/layout/spider_loading_view.xml
+SHA1-Digest: 2xke7aPfMHmdXY3aR3JTdmqpW2s=
+
+Name: assets/main_bottombtn_up.9.png
+SHA1-Digest: cnDEMs+/85gASUt7/RfvYFY3rr4=
+
+Name: res/drawable-xxxhdpi-v4/spider_ic_launcher.png
+SHA1-Digest: GnRolJqGDk7ikN5GP3s8UWg1Gi8=
+
+Name: assets/cfg/a/DVHotMap.cfg
+SHA1-Digest: LQmgSNG41VbYnU1yOUfp4jS15Zs=
+
+Name: lib/armeabi/libimgpro.so
+SHA1-Digest: 2VgeXfVxdAsOJ/fDHmXrB90ciUA=
+
+Name: res/layout/remote_atom_hotel_notification_image_layout.xml
+SHA1-Digest: Vv87r8znKi9VRgeIRYefbAz3gkM=
+
+Name: res/xml/spider_network_security_config.xml
+SHA1-Digest: e1Jw7xfDgxX//qEXR+qMJ0zHg+A=
+
+Name: res/anim/spider_side_in_from_center.xml
+SHA1-Digest: PE+QmcUHC44R1bhvaxw8Gol7MVc=
+
+Name: lib/armeabi/libq_atom_bus.so
+SHA1-Digest: Qae03RtKkIVsQIHdxT8kM0RSVGI=
+
+Name: assets/cfg/a/mode_1/reduct.sdkrs
+SHA1-Digest: qxEytKv4F8HyPAv77cvSOcJWxfg=
+
+Name: res/drawable-xhdpi-v4/idscan_scan_ico_back.png
+SHA1-Digest: mWIU1+GCRirLQSvIyFORXnHSeaA=
+
+Name: res/drawable-xhdpi-v4/spider_menu_flight.png
+SHA1-Digest: +oNHXEMn0PoVXzGyP7GppoR3bNg=
+
+Name: res/drawable/n_b_s2.xml
+SHA1-Digest: HFOvQmaAK68zD7QgK0zRGYPPCLg=
+
+Name: res/layout/layout_video_clarity.xml
+SHA1-Digest: DYhzlQuey84yz0sTMyrFyQG/pnM=
+
+Name: res/anim/spider_slide_out_left.xml
+SHA1-Digest: FahWtANoQiOkvmt4rUTGzt7yS3Y=
+
+Name: res/drawable-xhdpi-v4/video_close_volume.png
+SHA1-Digest: lEAdgwB9Z/SggPm/jV0LxB2dDrQ=
+
+Name: lib/armeabi/libq_atom_pay.so
+SHA1-Digest: gegupTgm42V9pESiYO+qn9uYpjY=
+
+Name: res/drawable-xhdpi-v4/idscan_ic_launcher.png
+SHA1-Digest: LhBO84t8McbFR64oB3fGiqmH1oo=
+
+Name: assets/Icon_mark4.png
+SHA1-Digest: aO+806mdGudhrfRnuuWXiewohpQ=
+
+Name: assets/Icon_road_yellow_arrow.png
+SHA1-Digest: RDWwUfjcWrNv0o/SuGNkxuEz7/I=
+
+Name: assets/main_topbtn_up.9.png
+SHA1-Digest: HKN7QK3DzAt8bykPXCYKgsWj1Mc=
+
+Name: lib/armeabi/libq_atom_carpool.so
+SHA1-Digest: w7tUZ+DjLKQLNkV+y6KlGfuMMTM=
+
+Name: assets/wear_zoom_in.png
+SHA1-Digest: B1Vre+RSsxrNH4Qcv+EIYDahRf0=
+
+Name: res/drawable/spider_theme_list_item_bg.xml
+SHA1-Digest: egXGOz63IxgfU7E+U7Ckr1evqiM=
+
+Name: res/drawable-xhdpi-v4/video_pause_normal.png
+SHA1-Digest: xsGr86QEFL1oCShKY8QKQT0H8lo=
+
+Name: res/drawable-xhdpi-v4/video_restart_normal.png
+SHA1-Digest: pH4u+0T0AkN25fG/veWsyYVa1Zw=
+
+Name: res/drawable-xhdpi-v4/spider_checkbox_checked.png
+SHA1-Digest: 3Ejq/JL6+HZzkxiYutqaf6cPK5Y=
+
+Name: lib/armeabi/libavfilter.so
+SHA1-Digest: dcr1rfMufnhQObPituhnhJ+XXh8=
+
+Name: lib/armeabi/libq_atom_intercar.so
+SHA1-Digest: vyxUa/UTrOphhgfu3Ij1ysyuIJU=
+
+Name: res/drawable-xhdpi-v4/video_battery_level_100.png
+SHA1-Digest: 17TxXOZzQi/yuBXZDLTpf8Fs1D0=
+
+Name: res/layout/idscan_layout_activity_passport_scan.xml
+SHA1-Digest: 8sObdXcCXyyfo3rytKN1AJGtrG0=
+
+Name: res/drawable-xhdpi-v4/video_brightness_video.png
+SHA1-Digest: N1f66+TNaaj9ozkzvYS7UXZRH3I=
+
+Name: assets/logo_l.png
+SHA1-Digest: WwqUEYbcRtro7LUcYuofXSP0AWc=
+
+Name: res/drawable/video_click_back_selector.xml
+SHA1-Digest: MKezDDpliGs7PaoYjQI0O8gc6oE=
+
+Name: res/drawable/spider_button_white_bg_selector.xml
+SHA1-Digest: 7gqKQyF8/Vd46LR4039uCv2wxg4=
+
+Name: lib/armeabi/libicu_common.so
+SHA1-Digest: THeChQ/wJYOmaJ0kyS8qZkuJM5o=
+
+Name: lib/armeabi/liblua_v1_0_4.so
+SHA1-Digest: CfAKb/x2NSxiYq3EVOoH5uM8XWM=
+
+Name: lib/armeabi/libentryexpro.so
+SHA1-Digest: WU8OPJoM52qjlHyPirqijarVlqM=
+
+Name: res/drawable/spider_round_gray_normal_shape.xml
+SHA1-Digest: HIuCJHy+QtSGuBR9CXg4HX7PuaY=
+
+Name: res/drawable-xhdpi-v4/common_ico_no_network.png
+SHA1-Digest: 44YNGv9sqdDO6p87MClQPH7hEOk=
+
+Name: lib/armeabi/libyoga.so
+SHA1-Digest: Ve+koKRdfowJSJw1aPVnhd6Xov0=
+
+Name: res/drawable-xhdpi-v4/remote_spider_ic_launcher.png
+SHA1-Digest: LhBO84t8McbFR64oB3fGiqmH1oo=
+
+Name: assets/wear_zoom_out_pressed.png
+SHA1-Digest: 6/Jdomk33/gE2C5pzLhnIE/YZN0=
+
+Name: lib/armeabi/libfdk-aac.so
+SHA1-Digest: LhFBDtxCr98WacziOvL8zHuOBqU=
+
+Name: lib/armeabi/libq_lib_patch.so
+SHA1-Digest: Uc5PxZZ8qEPJxSB99J7uebxlY78=
+
+Name: lib/armeabi/libctripenc.so
+SHA1-Digest: +abZXCF/e2zK6JJNasP8LYHZCCU=
+
+Name: res/raw/pitch_down.mp3
+SHA1-Digest: HYc++e/P8+Qc27ZwFcjDVJqsa4g=
+
+Name: lib/armeabi/libglog.so
+SHA1-Digest: 0NuL1KiheOkjHZI+sFf2FrXwUpE=
+
+Name: res/drawable-xhdpi-v4/common_network_unstable.gif
+SHA1-Digest: WkQekOc0fCNQr4dMeKdQpkWQajk=
+
+Name: res/color/spider_common_click_color_selector.xml
+SHA1-Digest: Q+IhlOvA6DMflDmQZZsKnuAVko8=
+
+Name: lib/armeabi/libq_atom_vacation.so
+SHA1-Digest: wnrXWYvNSq/02PQCHgBbSEQrVqA=
+
+Name: res/layout/layout_video_clarity_item.xml
+SHA1-Digest: og8jkDk4oQKNED/YB+VK2xRy2L4=
+
+Name: res/drawable-xhdpi-v4/common_btn_back_arrow.png
+SHA1-Digest: c9HCs/jAjShe67U32TYmtF8hEwA=
+
+Name: res/drawable-xhdpi-v4/spider_menu_order.png
+SHA1-Digest: 7OveS42S1CZcONtiozLC4JcaIYY=
+
+Name: res/drawable-xhdpi-v4/video_back_normal.png
+SHA1-Digest: MvmyumKsGxahtLtsYPJ5JPOTY8c=
+
+Name: res/layout/spider_notification_contentview.xml
+SHA1-Digest: lY2KM6YkPBSwNHmP+238ibW3Rcw=
+
+Name: lib/armeabi/libq_atom_share.so
+SHA1-Digest: J641ecNpGWY7zhqQnmImkfVfFtw=
+
+Name: lib/armeabi/libimagepipeline.so
+SHA1-Digest: +4n5XwUNm2Bg9qgdyhV6rjCVBS8=
+
+Name: assets/SDK_Default_Icon_End.png
+SHA1-Digest: Zhs1vU0U9wa/C8lYorJWCoZgJQY=
+
+Name: lib/armeabi/libq_atom_attemper.so
+SHA1-Digest: gVJNj6fkntVdFP3raQvlkKu9lTY=
+
+Name: lib/armeabi/libagorasdk2.so
+SHA1-Digest: Mxtgl9Wq55Lzei6FCB6INWSTHCI=
+
+Name: res/drawable-xhdpi-v4/idscan_passport_move_line.png
+SHA1-Digest: BxzKhl4e/391VK+G1aJ4Ag03B3Q=
+
+Name: assets/Icon_mark1.png
+SHA1-Digest: RMqITX92JYEbzb7P/39eL+9AfT0=
+
+Name: assets/cfg/a/mode_1/map.sty
+SHA1-Digest: at8h0bN0AXO6crZzsOh7Z19n+ig=
+
+Name: assets/SDK_Default_Traffic_Texture_Smooth.png
+SHA1-Digest: /GvVlqTgtwaJ+HOE44goggo0R0Y=
+
+Name: assets/Icon_start.png
+SHA1-Digest: U0bO85R4iXAolnKrTCo/XWsbh5Q=
+
+Name: assets/main_icon_zoomout.png
+SHA1-Digest: xi3mWmqozWo0HjMa8zYNyTogCi4=
+
+Name: res/xml/nfc_tech_filter.xml
+SHA1-Digest: 4EjLvUkUHGqXn06mFsntVg8huvQ=
+
+Name: res/drawable/video_clarity_popwindow_bg.9.png
+SHA1-Digest: Ginto4N1C8U6my+ogsetyBim38I=
+
+Name: assets/SDK_Default_Icon_Passenger.png
+SHA1-Digest: o1NUvR+eG+UYjFCu/H20UE6Zkbg=
+
+Name: lib/armeabi/libq_atom_open.so
+SHA1-Digest: UVsFeSgWwDnT3cWFeA9VWwQrTBM=
+
+Name: res/layout/spider_dispatcher_loading.xml
+SHA1-Digest: IIBBmoqLW6MsQyJaHvZ7AM+lc0s=
+
+Name: res/raw/idscan_pinyin.txt
+SHA1-Digest: 6JY2X5zi3bCOOx5tYr8Nmj3jdWg=
+
+Name: res/drawable-xhdpi-v4/spider_icon_vocation.png
+SHA1-Digest: 5tl+RH0xGLQSrpczzHIqzw7n+kw=
+
+Name: res/drawable/spider_round_blue_normal_shape.xml
+SHA1-Digest: GsApAxnP4s7ahRL2ysqDHR0nzO4=
+
+Name: res/drawable/video_retry_bg.xml
+SHA1-Digest: QfRcen5qUFYxqdht8pml2ZsyLOk=
+
+Name: assets/config
+SHA1-Digest: GE6kVwKCk2lu8OuWBoNVc+4i+4Y=
+
+Name: res/drawable-xhdpi-v4/spider_menu_search.png
+SHA1-Digest: iP4ejEFLnkIFeilFoa4f/lUEsYY=
+
+Name: res/anim/spider_splash_icon_show_anim_start.xml
+SHA1-Digest: VbzcJliaUxh7ZYpbeDEJZHMKKm0=
+
+Name: assets/icon_scale.9.png
+SHA1-Digest: qIUctUAkthqkey8qZs8wMv+8+ow=
+
+Name: lib/armeabi/libdalvikhack.so
+SHA1-Digest: UNp1Az4GLD0tMW0fHS4WngGlHwk=
+
+Name: lib/armeabi/libmsc.so
+SHA1-Digest: VS89HTVVI//1Ij1uPvhfrtKINpc=
+
+Name: res/anim/spider_side_in_from_top.xml
+SHA1-Digest: 9iLU2h+vNqQkPo6jIUK+eUc/XwM=
+
+Name: lib/armeabi/libq_atom_insur.so
+SHA1-Digest: IHkjbxEGNT1FUjABG0DxhszKN5Q=
+
+Name: res/drawable/video_title_bg.9.png
+SHA1-Digest: zvx5DG33fpkPvcuK5/XubPYT98M=
+
+Name: lib/armeabi/libq_atom_browser.so
+SHA1-Digest: afZcGU8u0jR++f58iDkzQz7Wv8k=
+
+Name: lib/armeabi/libq_lib_thirdparty.so
+SHA1-Digest: 4f2PkDWdSCro0PhTDtGIKgWlRMs=
+
+Name: lib/armeabi/libnative_monitor.so
+SHA1-Digest: l4/7nGHSWlo6fGy/zFhrpczi9/8=
+
+Name: res/drawable/video_click_pause_selector.xml
+SHA1-Digest: TohpRb8JHbqnh1mglN1ysuqj8L4=
+
+Name: res/raw/idscan_passport.weights
+SHA1-Digest: fsAXjzDcAyMnSWwCDfIi+T+BlYw=
+
+Name: res/anim/spider_side_in_from_bottom.xml
+SHA1-Digest: nu7q2WZ1JcXevy1EE+/8NBoIkXw=
+
+Name: res/xml/spider_filepath.xml
+SHA1-Digest: TXR7WFMczJHrO4CfybPL592ou8M=
+
+Name: res/anim/spider_fade_stay.xml
+SHA1-Digest: lrkgAM51WWCpgxWEpClNCrTN1pI=
+
+Name: res/anim/spider_splash_icon_show_anim_end.xml
+SHA1-Digest: UI98wG0x/+UAEc3DiQ4RlzIEpXM=
+
+Name: lib/armeabi/libq_lib_imagecache.so
+SHA1-Digest: xZdnziX9CH3U2HZpTTv5Srt4WI4=
+
+Name: lib/armeabi/libavutil.so
+SHA1-Digest: yctOGGI1XaQrz6ZReC8fKuMda38=
+
+Name: res/drawable-xhdpi-v4/video_play_normal.png
+SHA1-Digest: Qw796E/ib0+queOajbT4DyUdIww=
+
+Name: assets/Icon_mark5.png
+SHA1-Digest: fhXU60vSeWOscJdoLYlS5RHB4xU=
+
+Name: assets/SDK_Default_Traffic_Texture_Congestion.png
+SHA1-Digest: 7DahXkXvQjfSbToqybXvHgHavvM=
+
+Name: res/drawable/video_click_replay_selector.xml
+SHA1-Digest: mnJG1DnBx3XaJabhB1HMq9Ck96U=
+
+Name: res/anim/spider_side_out_from_center.xml
+SHA1-Digest: QtQ7k/3wM2o2rJk9wX3PjH5Nx3M=
+
+Name: assets/SDK_Default_Traffic_Texture_Slow.png
+SHA1-Digest: 3LBgAGf6jm87QNwNMqzdAo5rZeM=
+
+Name: lib/armeabi/libq_lib_rnqp.so
+SHA1-Digest: R+I4wb72Dz7q+DQWdzviqaEwc3M=
+
+Name: lib/armeabi/libq_lib_react.so
+SHA1-Digest: UkAW17VZS2b6m/Siihfb1ouNyQE=
+
+Name: res/layout/a_a.xml
+SHA1-Digest: dgZU5p2xFlcf9egJFngvUzDtty0=
+
+Name: res/layout/remote_atom_hotel_notification_big_image_layout.xml
+SHA1-Digest: WvL8zmMy9GFj3+vlxJW9nQQWqlc=
+
+Name: res/drawable/spider_checkbox_selector.xml
+SHA1-Digest: oP9NdKKq7pYQCGZOojNyB5xgR6M=
+
+Name: lib/armeabi/libq_atom_yis.so
+SHA1-Digest: eVPI2ndgtdtDEonqfticimMivBM=
+
+Name: lib/armeabi/libq_lib_framework.so
+SHA1-Digest: F+BW0akF3jq8lrUp48lpauhiDNE=
+
+Name: lib/armeabi/libfb.so
+SHA1-Digest: Yzp9XjiP/F6Lupy+LFlOqmgD3lQ=
+
+Name: assets/main_icon_zoomin_dis.png
+SHA1-Digest: stSuzVtJDvR1SBnpDgH/oTyY5Nk=
+
+Name: assets/cfg/a/DVVersion.cfg
+SHA1-Digest: caRdANaEHFhk7wpGIqYVWaoT7uY=
+
+Name: res/drawable/spider_shape_flight.xml
+SHA1-Digest: r4FLCAYVsBJ6vVKp/z+P4YThvos=
+
+Name: res/drawable-xhdpi-v4/video_back_pressed.png
+SHA1-Digest: U3mZyRlW0h3YOT7IhRU2ueQfbEE=
+
+Name: res/drawable-xhdpi-v4/close.png
+SHA1-Digest: Nz9hMk2WA+tOjXFDO/mGUJx/Hog=
+
+Name: res/drawable-xhdpi-v4/spider_checkbox_normal.png
+SHA1-Digest: BszR/N7AtyiJjkn13ClAhSh7Sw8=
+
+Name: assets/switch
+SHA1-Digest: VlS/54Ge8T0d1Ydy/hqHoFKWlBE=
+
+Name: lib/armeabi/libuptsmaddon.so
+SHA1-Digest: eQjwkYcDdFET75MVlej4OT+xAnE=
+
+Name: lib/armeabi/libq_atom_car.so
+SHA1-Digest: nGKzDjIrw/MfftRUmHBeLZQQrhs=
+
+Name: res/raw/idscan_beep.ogg
+SHA1-Digest: GlIsg8mvi6v0saqDdV7ZN0KoFcY=
+
+Name: lib/armeabi/libfolly_json.so
+SHA1-Digest: XOg7RsEJhpjSUBOdozm0j/ClF0A=
+
+Name: res/drawable/spider_round_right_bg.xml
+SHA1-Digest: XJKP6WiAMOxpSgwiimoPUI91AYU=
+
+Name: lib/armeabi/libBDSpeechDecoder_V1.so
+SHA1-Digest: HG8qcq9jHWLZZMWHi3p4vJgX91Q=
+
+Name: lib/armeabi/libreactnativejni.so
+SHA1-Digest: XHOdvQV3284AfqlUa3HzmhUKqGg=
+
+Name: res/anim/spider_splash_icon_dismiss_anim.xml
+SHA1-Digest: P3beGS4RtE+AvqVnAvPhcdrjJm4=
+
+Name: res/drawable-xhdpi-v4/spider_icon_financial.png
+SHA1-Digest: JGZaCLMLnnVzBVhMgMsAg7GxjlI=
+
+Name: res/drawable-xhdpi-v4/video_battery_level_70.png
+SHA1-Digest: ofzOVC8ASIVC8igdzy/sKgaHxhg=
+
+Name: res/drawable/video_dialog_progress.xml
+SHA1-Digest: z3T7hKkf0aZToiXSnZk5FRM36nM=
+
+Name: assets/wear_zoom_in_pressed.png
+SHA1-Digest: b2oc5zOTiPWczcECAmXURKLrj+w=
+
+Name: res/xml/spider_launcher_menu.xml
+SHA1-Digest: xsMvKig+gl/w3eRHNsmojZFF8TQ=
+
+Name: assets/Icon_end.png
+SHA1-Digest: LBMaCfaSy+zZcqGqKqu/dkvhnK0=
+
+Name: res/drawable-hdpi-v4/b_b.png
+SHA1-Digest: taGnoLj01UAM0EcvKCuzk+0UCN0=
+
+Name: assets/Icon_mark9.png
+SHA1-Digest: Hr7HMZrDP8VeXS+315R/nFkbCwY=
+
+Name: res/drawable-xhdpi-v4/spider_editview_bg.9.png
+SHA1-Digest: 8y2Kgk94/hLy0mul9QvaJPh+IaQ=
+
+Name: res/drawable-xhdpi-v4/video_battery_level_10.png
+SHA1-Digest: I0eGUrDFbHVllBAVWJY0QfkQN4c=
+
+Name: lib/armeabi/libq_atom_im.so
+SHA1-Digest: HPRNqA6PIDB5OoFVXo4xqulQD1g=
+
+Name: res/drawable/common_btn_search_selector.xml
+SHA1-Digest: 0IcvpMd45pr3pgaKGbBHr+I6/E4=
+
+Name: res/layout/common_topbar_layout.xml
+SHA1-Digest: mnvj7K1luIw2GyYn3ylSw8yAEDk=
+
+Name: assets/cfg/idrres/ResPackIndoorMap.sdkrs
+SHA1-Digest: CZS09V/70Qx6s+tjiCoqumH/8sQ=
+
+Name: lib/armeabi/libq_atom_meglive.so
+SHA1-Digest: /Mq872T/6/gqyUO8E3980Mv0Mjo=
+
+Name: assets/marker1.png
+SHA1-Digest: 8P7GH4RbWHFO0LT4loIyZBJIAkA=
+
+Name: res/drawable/video_bottom_seek_thumb.xml
+SHA1-Digest: Kr4CsKYgb9gKo+BafHJ3j0UCTtQ=
+
+Name: res/drawable-xhdpi-v4/video_add_volume.png
+SHA1-Digest: AEXHdQ/5X22u1rSdDIO0ef1JUkA=
+
+Name: res/drawable/video_click_back_tiny_selector.xml
+SHA1-Digest: xWbiG8100Csi46xgeAhFoEWTIZg=
+
+Name: assets/SDK_Default_Icon_Start.png
+SHA1-Digest: O9+q5HV16XP/SdBjLrnDO1nNV0w=
+
+Name: lib/armeabi/libq_atom_voice.so
+SHA1-Digest: Cho6UcDgq2LY/9Se/CLN5qYZTGs=
+
+Name: classes.dex
+SHA1-Digest: Kad25cQkQAnm5U248MO+nNTcpKs=
+
+Name: lib/armeabi/libq_atom_flight.so
+SHA1-Digest: y/dlEvp1a5OJn/RBOUEDAyuNDpI=
+
+Name: res/drawable/n_b_s0.xml
+SHA1-Digest: 5PC64BygTngst27Dc8apHPKQxwM=
+

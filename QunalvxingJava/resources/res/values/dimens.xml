@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_gap">16dp</dimen>
+    <dimen name="pub_react_video_start_button_w_h_fullscreen">62dp</dimen>
+    <dimen name="pub_react_video_start_button_w_h_normal">45dp</dimen>
+    <dimen name="title_hight">50dp</dimen>
+</resources>
