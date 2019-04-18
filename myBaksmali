@@ -25,12 +25,14 @@ if os.access(unzipOut+"/"+apkname, os.F_OK):
 sp.check_call([
     "mkdir",unzipOut+"/"+apkname
 ])
+
 # unzip apk
 sp.check_call([
     "unzip", "-q",
     sys.argv[1],
     "-d",unzipOut+"/"+apkname
 ])
+
 # baksmali
 sp.check_call([
     "java", "-jar","baksmali-2.2.5.jar", 
@@ -38,6 +40,7 @@ sp.check_call([
     "-o",baksmaliOut+"/"+apkname,
     unzipOut+"/"+apkname+"/classes.dex"
 ])
+
 # open with vscode 
 print("open in code")
 sp.check_call([

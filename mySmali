@@ -13,7 +13,7 @@ smaliOut = "/Users/esaki/AndroidStudioProjects/smaliOut"
 kspass = "nathan"
 
 if len(sys.argv) != 2:
-    print("usage: ./mySmali [input.apk]")
+    print("usage: ./mySmali [input.apk] [modified]")
     sys.exit(1)
 
 apkname = sys.argv[1].split('/')[-1].split('.')[0]
