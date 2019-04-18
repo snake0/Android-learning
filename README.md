@@ -6,19 +6,16 @@
 
 ```Java
 package test;
-
 import java.lang.reflect.Field;
-
 class Foo {
     private int haha = 3;
-
     int getField() {
         return haha;
     }
 }
-
 public class Main {
     public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
+        // notice the difference between getDeclaredField and getField
         Field privateIntField = Foo.class.getDeclaredField("haha");
         privateIntField.setAccessible(true);
 
@@ -34,23 +31,7 @@ public class Main {
 * 了解APK签名结构 https://www.jianshu.com/p/a27783a713f2
 
 ## 2.1【实验】实现一个python脚本，能够给apk重签名（先取出原有签名，再用自己的密钥重新签名）
-密钥在keys目录下
-密码:nathan
-
-```python
-import sys
-import os
-
-if len(sys.argv) != 3:
-    print("usage: python signer.py [apksigner.jar dir] [*.apk dir]")
-    sys.exit(0)
-
-cmd = "java -jar %s sign --ks keys/hellokey.jks %s" % (sys.argv[1], sys.argv[2])
-os.system(cmd)
-print("\nresign verify:\n")
-cmd = "java -jar %s verify -v %s" % (sys.argv[1], sys.argv[2])
-os.system(cmd)
-```
+见resigner
 
 # 3. 使用smali/baksmali查看Dalvik字节码
 https://github.com/JesusFreke/smali
@@ -75,22 +56,6 @@ https://github.com/JesusFreke/smali
 
     return-object v0
 .end method
-
-.method public set(Ljava/lang/Object;)V
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;)V"
-        }
-    .end annotation
-
-    .prologue
-    .line 32
-    iput-object p1, p0, Lbolts/Capture;->value:Ljava/lang/Object;
-
-    .line 33
-    return-void
-.end method
 ```
 
 
@@ -105,10 +70,6 @@ https://github.com/JesusFreke/smali
 public T get() {
     return this.value;
 }
-
-public void set(T t) {
-    this.value = t;
-}
 ```
 fallback模式
 ```Java
@@ -116,12 +77,6 @@ public T get() {
     r1 = this;
     r0 = r1.value;
     return r0;
-}
-
-public void set(T r1) {
-    r0 = this;
-    r0.value = r1;
-    return;
 }
 ```
 
