@@ -20,6 +20,8 @@ apkname = apk.split('.')[0]
 
 if(os.access(unzipOut+"/"+apkname, os.F_OK)):
     print("baksmaliOut exists.")
+    print("open in code")
+    sp.call(["code",baksmaliOut+"/"+apkname])
     exit(0)
 
 # make dir to store smali files
@@ -40,6 +42,7 @@ sp.call([
     unzipOut+"/"+apkname+"/classes.dex"
 ])
 # open with vscode 
+print("open in code")
 sp.call([
     "code",baksmaliOut+"/"+apkname
 ])
