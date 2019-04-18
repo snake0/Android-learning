@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+
+import subprocess as sp
+import sys
+
+if(len(sys.argv)!=2):
+    print("usage: ./baksmali [x.apk]")
+    sys.exit(1)
