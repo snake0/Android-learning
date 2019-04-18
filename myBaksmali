@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# ./baksmali [input].apk
+# ./myBaksmali [input].apk
 # unzip an apk file and dissemble it to .smali files(in AndroidOutput dir)
 # open the .smali dir in vscode
 
@@ -11,31 +11,28 @@ import os
 baksmaliOut = "/Users/esaki/AndroidStudioProjects/baksmaliOut"
 unzipOut = "/Users/esaki/AndroidStudioProjects/unzipOut"
 
-if(len(sys.argv) != 2):
-    print("usage: ./baksmali [input.apk]")
+if len(sys.argv) != 2:
+    print("usage: ./myBaksmali [input.apk]")
     sys.exit(1)
 
-apk = sys.argv[1].split('/')[-1]
-apkname = apk.split('.')[0]
+apkname = sys.argv[1].split('/')[-1].split('.')[0]
 
-if(os.access(unzipOut+"/"+apkname, os.F_OK)):
-    print("baksmaliOut exists.")
-    print("open in code")
-    sp.call(["code",baksmaliOut+"/"+apkname])
-    exit(0)
+if os.access(unzipOut+"/"+apkname, os.F_OK):
+    sp.check_call(["rm","-rf",unzipOut+"/"+apkname])
+    sp.check_call(["rm","-rf",baksmaliOut+"/"+apkname])
 
 # make dir to store smali files
-sp.call([
+sp.check_call([
     "mkdir",unzipOut+"/"+apkname
 ])
 # unzip apk
-sp.call([
+sp.check_call([
     "unzip", "-q",
     sys.argv[1],
     "-d",unzipOut+"/"+apkname
 ])
 # baksmali
-sp.call([
+sp.check_call([
     "java", "-jar","baksmali-2.2.5.jar", 
     "disassemble",
     "-o",baksmaliOut+"/"+apkname,
@@ -43,6 +40,6 @@ sp.call([
 ])
 # open with vscode 
 print("open in code")
-sp.call([
+sp.check_call([
     "code",baksmaliOut+"/"+apkname
 ])

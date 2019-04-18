@@ -31,7 +31,19 @@ public class Main {
 * 了解APK签名结构 https://www.jianshu.com/p/a27783a713f2
 
 ## 2.1【实验】实现一个python脚本，能够给apk重签名（先取出原有签名，再用自己的密钥重新签名）
-见resigner
+详见resigner & baksmali 文件
+
+**myBaksmali**: 将给定的apk反编译为smali文件，用vscode打开
+
+**mySmali**: 将上一步修改过的smali文件打包成apk，重签名，生成新apk
+
+`./myBaksmali [xx/xx/input.apk]`
+
+反编译apk，在打开的vscode中修改smali文件
+
+`./mySmali [xx/xx/input.apk]`
+
+修改好smali文件后使用生成可以安装的apk
 
 # 3. 使用smali/baksmali查看Dalvik字节码
 https://github.com/JesusFreke/smali
