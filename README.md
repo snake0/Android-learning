@@ -31,7 +31,7 @@ public class Main {
 * 了解APK签名结构 https://www.jianshu.com/p/a27783a713f2
 
 ## 2.1【实验】实现一个python脚本，能够给apk重签名（先取出原有签名，再用自己的密钥重新签名）
-详见resigner & baksmali 文件
+详见mySmali & myBaksmali 文件
 
 **myBaksmali**: 将给定的apk反编译为smali文件，用vscode打开
 
@@ -100,7 +100,7 @@ public T get() {
 
 ## 5.1【实验】自己写一个简单的androidapp，就实现helloworld，然后反编译修改invoke，看看效果。
 
-
+使用工具mySmali & myBaksmali,将改好的apk运行在模拟器上，在logcat中看到输出被改掉
 
 # 6 【阶段性大实验】破解去哪儿apk的签名验证
 
