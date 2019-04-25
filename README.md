@@ -91,30 +91,37 @@ public T get() {
     return r0;
 }
 ```
-
-
-
-
 # 5. 修改一条invoke-xxx 指令，为onCreate通过smali增加一段Log.d的调用
 例如将 `android.util.Log`的调用改掉，smali重新打包，安装，看效果
 
 ## 5.1【实验】自己写一个简单的androidapp，就实现helloworld，然后反编译修改invoke，看看效果。
+在原有的smali上修改：
 
-使用工具mySmali & myBaksmali,将改好的apk运行在模拟器上，在logcat中看到输出被改掉
+> `.registers 5`
+> 为Log.d(tag,msg)的两个参数添加寄存器
 
-# 6 【阶段性大实验】破解去哪儿apk的签名验证
+> `const-string v2, "this is a msg"
+    const-string v1, "this is a tag"`
+>   存放2个参数
+
+>`    invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+`
+> invoke-static 调用静态方法
+
+用mySmali打包安装后，可以在Logcat中看到输出：
+![](Log.d.png)
+# ~6 【阶段性大实验】破解去哪儿apk的签名验证~
 
 
-# 熟悉android dx工具
+# 7. 熟悉android dx工具
 dx在 `Android SDK/build-tools/`下面
 
-# 为APK增加一个新的dex文件
+# 8.为APK增加一个新的dex文件
 
-# 修改invoke-xxx调用新dex文件的内容
+# 9. 修改invoke-xxx调用新dex文件的内容
 
-# 编写非APK封装的dalvik程序
+# 10. 编写非APK封装的dalvik程序
 https://blog.csdn.net/u010651541/article/details/53163542
 
-# 了解CLASSPATH加载顺序
+# 11. 了解CLASSPATH加载顺序
 * 通过编写一个同名（同包名，同类名）的class，编译成独立dex，安排CLASSPATH加载序的方式，替换掉APK原有类
-

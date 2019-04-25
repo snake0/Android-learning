@@ -10,42 +10,47 @@ baksmaliOut = "/Users/esaki/AndroidStudioProjects/baksmaliOut"
 unzipOut = "/Users/esaki/AndroidStudioProjects/unzipOut"
 apksigner = "/Users/esaki/Library/Android/sdk/build-tools/28.0.3/lib/apksigner.jar"
 smaliOut = "/Users/esaki/AndroidStudioProjects/smaliOut"
+dx = "/Users/esaki/Library/Android/sdk/build-tools/28.0.3/dx"
+platformTools = "/Users/esaki/Library/Android/sdk/platform-tools"
+
 kspass = "nathan"
 
-if len(sys.argv) != 2:
-    print("usage: ./mySmali [input.apk] [modified]")
-    sys.exit(1)
+def smali():
+    if len(sys.argv) != 2:
+        print("usage: ./mySmali [input.apk] [modified]")
+        sys.exit(1)
 
-apkname = sys.argv[1].split('/')[-1].split('.')[0]
+    apkname = sys.argv[1].split('/')[-1].split('.')[0]
 
+    if not os.access(unzipOut+"/"+apkname, os.F_OK):
+        print("please ./myBaksmali before using mySmali")
+        exit(1)
 
-if not os.access(unzipOut+"/"+apkname, os.F_OK):
-    print("please ./myBaksmali before using mySmali")
-    exit(1)
+    # pack up smali files and replace the original classes.dex file
+    sp.check_call([
+        "java","-jar","smali-2.2.5.jar","assemble",
+        "-o", "classes.dex",
+        baksmaliOut + "/" + apkname
+    ])
 
-# pack up smali files and replace the original classes.dex file
-sp.check_call([
-    "java","-jar","smali-2.2.5.jar","assemble",
-    "-o", "classes.dex",
-    baksmaliOut + "/" + apkname
-])
+    # update classes.dex in the target apk
+    sp.check_call([
+        "zip","-u",sys.argv[1],
+        "classes.dex"
+    ])
 
-# update classes.dex in the target apk
-sp.check_call([
-    "zip","-u",sys.argv[1],
-    "classes.dex"
-])
+    sp.check_call([
+        "rm", "classes.dex"
+    ])
 
-sp.check_call([
-    "rm", "classes.dex"
-])
+    # resign the apk
+    sp.check_call([
+        "java","-jar",apksigner,"sign",
+        "--ks", "keys/key.jks",
+        "--ks-key-alias","key0",
+        "--ks-pass", "pass:" + kspass,
+        "--key-pass", "pass:" + kspass,
+        sys.argv[1]
+    ])
 
-# resign the apk
-sp.check_call([
-    "java","-jar",apksigner,"sign",
-    "--ks", "keys/key.jks",
-    "--ks-key-alias","key0",
-    "--ks-pass", "pass:" + kspass,
-    "--key-pass", "pass:" + kspass,
-    sys.argv[1]
-])
+smali()
