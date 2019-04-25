@@ -15,7 +15,6 @@ platformTools = "/Users/esaki/Library/Android/sdk/platform-tools"
 
 kspass = "nathan"
 
-
 def smali():
     if len(sys.argv) != 2:
         print("usage: ./mySmali [input.apk] [modified]")
