@@ -112,7 +112,8 @@ public T get() {
 > invoke-static 调用静态方法
 
 用mySmali打包安装后，可以在Logcat中看到输出：
-![](Log.d.png)
+<img src="Log.d.png" height="50" width="300">
+
 # ~6 【阶段性大实验】破解去哪儿apk的签名验证~
 
 
