@@ -102,11 +102,11 @@ public T get() {
 
 > `.registers 5`
 > 为Log.d(tag,msg)的两个参数添加寄存器
-
+> 
 > `const-string v2, "this is a msg"
     const-string v1, "this is a tag"`
 >   存放2个参数
-
+> 
 >`    invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 `
 > invoke-static 调用静态方法
