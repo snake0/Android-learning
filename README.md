@@ -6,13 +6,16 @@
 
 ```Java
 package test;
+
 import java.lang.reflect.Field;
+
 class Foo {
     private int haha = 3;
     int getField() {
         return haha;
     }
 }
+
 public class Main {
     public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
         // notice the difference between getDeclaredField and getField
