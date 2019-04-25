@@ -15,6 +15,7 @@ platformTools = "/Users/esaki/Library/Android/sdk/platform-tools"
 
 kspass = "nathan"
 
+
 def smali():
     if len(sys.argv) != 2:
         print("usage: ./mySmali [input.apk] [modified]")
@@ -36,17 +37,22 @@ def smali():
             "classes.dex"
         ], [
             "rm", "classes.dex"
-        ], [
-            "java", "-jar", apksigner, "sign",
-            "--ks", "keys/key.jks",
-            "--ks-key-alias", "key0",
-            "--ks-pass", "pass:" + kspass,
-            "--key-pass", "pass:" + kspass,
-            sys.argv[1]
         ]
     ]
     for command in commands:
         sp.check_call(command)
 
 
+def resign():
+    sp.check_call([
+        "java", "-jar", apksigner, "sign",
+        "--ks", "keys/key.jks",
+        "--ks-key-alias", "key0",
+        "--ks-pass", "pass:" + kspass,
+        "--key-pass", "pass:" + kspass,
+        sys.argv[1]
+    ])
+
+
 smali()
+resign()
