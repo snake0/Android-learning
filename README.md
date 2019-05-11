@@ -53,26 +53,6 @@ https://github.com/JesusFreke/smali
 [这是smali源码的简明教程](https://www.52pojie.cn/thread-395689-1-1.html)
 
 ## 3.1【实验】下载去哪儿apk，baksmali之后看看源码，尝试读一读
-如下是out/bolts/Capture.smali文件中的内容
-
-```smali
-# virtual methods
-.method public get()Ljava/lang/Object;
-    .registers 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TT;"
-        }
-    .end annotation
-
-    .prologue
-    .line 28
-    iget-object v0, p0, Lbolts/Capture;->value:Ljava/lang/Object;
-
-    return-object v0
-.end method
-```
-
 
 # 4. 熟练使用jadx
 * https://github.com/skylot/jadx/
@@ -80,43 +60,15 @@ https://github.com/JesusFreke/smali
   
 ## 4.1【实验】使用jadx，反编译去哪儿apk，先读java源码,再读一读对应的字节码
 
-如下是out/bolts/Capture.smali文件对应的Java代码
-```Java
-public T get() {
-    return this.value;
-}
-```
-fallback模式
-```Java
-public T get() {
-    r1 = this;
-    r0 = r1.value;
-    return r0;
-}
-```
 # 5. 修改一条invoke-xxx 指令，为onCreate通过smali增加一段Log.d的调用
 例如将 `android.util.Log`的调用改掉，smali重新打包，安装，看效果
 
 ## 5.1【实验】自己写一个简单的androidapp，就实现helloworld，然后反编译修改invoke，看看效果。
-在原有的smali上修改：
-
-> `.registers 5`
-> 为Log.d(tag,msg)的两个参数添加寄存器
-> 
-> `const-string v2, "this is a msg"
-    const-string v1, "this is a tag"`
->   存放2个参数
-> 
->`    invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
-`
-> invoke-static 调用静态方法
+在原有的smali上添加代码，调用Log.d
 
 用mySmali打包安装后，可以在Logcat中看到输出：
 
-
 <img src="Log.d.png" height="50" width="300">
-
-# ~6 【阶段性大实验】破解去哪儿apk的签名验证~
 
 
 # 7. 熟悉android dx工具
