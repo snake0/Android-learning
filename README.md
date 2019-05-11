@@ -135,13 +135,13 @@ public class ToInvoke{
     }
 }
 ```
-使用dx命令将其编译为classes2.dex文件；
+javac 编译为 .class，再使用dx命令将.class 文件编译为classes2.dex文;
 
-后在classes.dex文件中的MainActivity内添加：
+后在classes.dex文件中的MainActivity内添加
 
 `invoke-static {}, LToInvoke;->toInvoke()V`
 
-调用新文件中的内容，打包运行可以得到输出：
+调用新文件中的内容，打包运行可以得到输出
 
 <img src="newdex.png" height="30" width="300">
 以上修改见mySmali文件的`addDex()`函数
