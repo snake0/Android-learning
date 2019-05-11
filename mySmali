@@ -22,7 +22,6 @@ def smali():
         print("usage: ./mySmali [input.apk] [modified]")
         sys.exit(1)
 
-
     if not os.access(unzipOut+"/"+apkname, os.F_OK):
         print("please ./myBaksmali before using mySmali")
         exit(1)
@@ -42,20 +41,22 @@ def smali():
     for command in commands:
         sp.check_call(command)
 
+
 def addDex():
     commands = [
         [
             "javac", "ToInvoke.java"
         ],
         [
-            dx,"--dex","--output=classes2.dex","ToInvoke.class"
+            dx, "--dex", "--output=classes2.dex", "ToInvoke.class"
         ],
-        ["zip", "-u", sys.argv[1], "classes2.dex"],[
-            "rm","ToInvoke.class"
+        ["zip", "-u", sys.argv[1], "classes2.dex"], [
+            "rm", "ToInvoke.class"
         ]
     ]
     for command in commands:
         sp.check_call(command)
+
 
 def resign():
     sp.check_call([
