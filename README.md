@@ -135,7 +135,7 @@ public class ToInvoke{
     }
 }
 ```
-javac 编译为 .class，再使用dx命令将.class 文件编译为classes2.dex文;
+javac 编译为 .class，再使用dx命令将.class 文件编译为classes2.dex;
 
 后在classes.dex文件中的MainActivity内添加
 
