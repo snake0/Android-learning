@@ -122,7 +122,11 @@ public T get() {
 # 7. 熟悉android dx工具
 dx在 `Android SDK/build-tools/`下面
 
-# 8.为APK增加一个新的dex文件 9. 修改invoke-xxx调用新dex文件的内容
+# 8.为APK增加一个新的dex文件 
+修改build.gradle文件使项目支持multidex：在`dependencies{}`中添加
+
+`implementation 'com.android.support:multidex:1.0.3'`
+# 9. 修改invoke-xxx调用新dex文件的内容
 先编写一个.java文件， 内容如下：
 ```java
 public class ToInvoke{
