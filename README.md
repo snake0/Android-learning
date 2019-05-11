@@ -122,9 +122,25 @@ public T get() {
 # 7. 熟悉android dx工具
 dx在 `Android SDK/build-tools/`下面
 
-# 8.为APK增加一个新的dex文件
+# 8.为APK增加一个新的dex文件 9. 修改invoke-xxx调用新dex文件的内容
+先编写一个.java文件， 内容如下：
+```java
+public class ToInvoke{
+    public static void toInvoke(){
+        System.out.println("function in new dex invoked");
+    }
+}
+```
+使用dx命令将其编译为classes2.dex文件；
 
-# 9. 修改invoke-xxx调用新dex文件的内容
+后在classes.dex文件中的MainActivity内添加：
+
+`invoke-static {}, LToInvoke;->toInvoke()V`
+
+调用新文件中的内容，打包运行可以得到输出：
+
+<img src="newdex.png" height="30" width="300">
+以上修改见mySmali文件的`addDex()`函数
 
 # 10. 编写非APK封装的dalvik程序
 https://blog.csdn.net/u010651541/article/details/53163542
