@@ -101,5 +101,35 @@ javac 编译为 .class，再使用dx命令将.class 文件编译为classes2.dex;
 # 10. 编写非APK封装的dalvik程序
 https://blog.csdn.net/u010651541/article/details/53163542
 
+Helloworld.java:
+```Java
+public class Helloworld {
+    public static void main(String[] args){
+        System.out.println("Hello, I am started by app_process!");
+    }
+}
+```
+执行如下命令:
+```python
+commands = [
+        [
+            "javac", "Helloworld.java"
+        ], [
+            "dx", "--dex", "--output=Helloworld.dex", "Helloworld.class"
+        ],[
+            "adb","push","Helloworld.dex", "/data/local/tmp/"
+        ]
+    ]
+```
+adb shell 进入 shell, 执行:
+
+`cd /data/local/tmp/`
+
+`app_process -Djava.class.path=Helloworld.dex  /data/local/tmp Helloworld`
+
+可看到Helloworld输出
+```
+Hello, I am started by app_process!
+```
 # 11. 了解CLASSPATH加载顺序
 * 通过编写一个同名（同包名，同类名）的class，编译成独立dex，安排CLASSPATH加载序的方式，替换掉APK原有类

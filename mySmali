@@ -10,23 +10,25 @@ baksmaliOut = "/Users/esaki/AndroidStudioProjects/baksmaliOut"
 unzipOut = "/Users/esaki/AndroidStudioProjects/unzipOut"
 apksigner = "/Users/esaki/Library/Android/sdk/build-tools/28.0.3/lib/apksigner.jar"
 smaliOut = "/Users/esaki/AndroidStudioProjects/smaliOut"
-dx = "/Users/esaki/Library/Android/sdk/build-tools/28.0.3/dx"
-platformTools = "/Users/esaki/Library/Android/sdk/platform-tools"
 
 kspass = "nathan"
-apkname = sys.argv[1].split('/')[-1].split('.')[0]
+
+commands = []
 
 
 def smali():
+    global commands
+    apkname = sys.argv[1].split('/')[-1].split('.')[0]
+
     if len(sys.argv) != 2:
         print("usage: ./mySmali [input.apk] [modified]")
         sys.exit(1)
 
-    if not os.access(unzipOut+"/"+apkname, os.F_OK):
+    if not os.access(unzipOut + "/" + apkname, os.F_OK):
         print("please ./myBaksmali before using mySmali")
         exit(1)
 
-    commands = [
+    commands += [
         [
             "java", "-jar", "smali-2.2.5.jar", "assemble",
             "-o", "classes.dex",
@@ -38,24 +40,54 @@ def smali():
             "rm", "classes.dex"
         ]
     ]
-    for command in commands:
-        sp.check_call(command)
 
 
 def addDex():
-    commands = [
+    global commands
+    apkname = sys.argv[1].split('/')[-1].split('.')[0]
+
+    commands += [
         [
             "javac", "ToInvoke.java"
-        ],
-        [
-            dx, "--dex", "--output=classes2.dex", "ToInvoke.class"
-        ],
-        ["zip", "-u", sys.argv[1], "classes2.dex"], [
+        ], [
+            "dx", "--dex", "--output=classes2.dex", "ToInvoke.class"
+        ], [
+            "zip", "-u", sys.argv[1], "classes2.dex"
+        ], [
             "rm", "ToInvoke.class"
         ]
     ]
-    for command in commands:
-        sp.check_call(command)
+
+
+def substitute():
+    global commands
+    apkname = sys.argv[1].split('/')[-1].split('.')[0]
+    commands += [
+        [
+            "javac", "com/example/helloworld/ToSubstitute.java"
+        ], [
+            "dx", "--dex", "--output=classes3.dex", "com/example/helloworld/ToSubstitute.class"
+        ], [
+            "zip", "-u", sys.argv[1], "classes3.dex"
+        ], [
+            "rm", "com/example/helloworld/ToSubstitute.class"
+        ], [
+            "rm", "classes3.dex"
+        ]
+    ]
+
+
+def app_process():
+    global commands
+    commands += [
+        [
+            "javac", "Helloworld.java"
+        ], [
+            "dx", "--dex", "--output=Helloworld.dex", "Helloworld.class"
+        ], [
+            "adb", "push", "Helloworld.dex", "/data/local/tmp/"
+        ]
+    ]
 
 
 def resign():
@@ -69,6 +101,14 @@ def resign():
     ])
 
 
-smali()
-addDex()
-resign()
+def funcs():
+    substitute()
+
+def main():
+    funcs()
+    for command in commands:
+        sp.check_call(command)
+    resign()
+
+
+main()
