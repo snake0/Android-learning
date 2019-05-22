@@ -61,18 +61,18 @@ def addDex():
 
 def substitute():
     global commands
-    apkname = sys.argv[1].split('/')[-1].split('.')[0]
+    # apkname = sys.argv[1].split('/')[-1].split('.')[0]
     commands += [
         [
             "javac", "com/example/helloworld/ToSubstitute.java"
         ], [
-            "dx", "--dex", "--output=classes3.dex", "com/example/helloworld/ToSubstitute.class"
-        ], [
-            "zip", "-u", sys.argv[1], "classes3.dex"
+            "dx", "--dex", "--output=d.dex", "com/example/helloworld/ToSubstitute.class"
         ], [
             "rm", "com/example/helloworld/ToSubstitute.class"
-        ], [
-            "rm", "classes3.dex"
+        ],[
+            "adb","push","d.dex","/data/local/tmp"
+        ],[
+            "rm","d.dex"
         ]
     ]
 
@@ -108,7 +108,7 @@ def main():
     funcs()
     for command in commands:
         sp.check_call(command)
-    resign()
+    # resign()
 
 
 main()
