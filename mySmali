@@ -58,24 +58,16 @@ def addDex():
         ]
     ]
 
-
-def substitute():
+def resign():
     global commands
-    # apkname = sys.argv[1].split('/')[-1].split('.')[0]
-    commands += [
-        [
-            "javac", "com/example/helloworld/ToSubstitute.java"
-        ], [
-            "dx", "--dex", "--output=d.dex", "com/example/helloworld/ToSubstitute.class"
-        ], [
-            "rm", "com/example/helloworld/ToSubstitute.class"
-        ],[
-            "adb","push","d.dex","/data/local/tmp"
-        ],[
-            "rm","d.dex"
-        ]
-    ]
-
+    commands += [[
+        "java", "-jar", apksigner, "sign",
+        "--ks", "keys/key.jks",
+        "--ks-key-alias", "key0",
+        "--ks-pass", "pass:" + kspass,
+        "--key-pass", "pass:" + kspass,
+        sys.argv[1]
+    ]]
 
 def app_process():
     global commands
@@ -90,19 +82,28 @@ def app_process():
     ]
 
 
-def resign():
-    sp.check_call([
-        "java", "-jar", apksigner, "sign",
-        "--ks", "keys/key.jks",
-        "--ks-key-alias", "key0",
-        "--ks-pass", "pass:" + kspass,
-        "--key-pass", "pass:" + kspass,
-        sys.argv[1]
-    ])
+def substitute():
+    global commands
+    # apkname = sys.argv[1].split('/')[-1].split('.')[0]
+    commands += [
+        [
+            "javac", "com/example/helloworld/ToSubstitute.java"
+        ], [
+            "dx", "--dex", "--output=substitute.dex", "com/example/helloworld/ToSubstitute.class"
+        ], [
+            "rm", "com/example/helloworld/ToSubstitute.class"
+        ], [
+            "adb", "push", "substitute.dex", "/data/local/tmp"
+        ], [
+            "rm", "substitute.dex"
+        ]
+    ]
+
 
 
 def funcs():
     substitute()
+
 
 def main():
     funcs()

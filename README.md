@@ -101,7 +101,7 @@ javac 编译为 .class，再使用dx命令将.class 文件编译为classes2.dex;
 # 10. 编写非APK封装的dalvik程序
 https://blog.csdn.net/u010651541/article/details/53163542
 
-见mySmali
+参考链接[adb指令手册](http://adbshell.com/)<p>
 
 Helloworld.java:
 ```Java
@@ -111,35 +111,82 @@ public class Helloworld {
     }
 }
 ```
-执行如下命令:
-```python
-commands = [
-        [
-            "javac", "Helloworld.java"
-        ], [
-            "dx", "--dex", "--output=Helloworld.dex", "Helloworld.class"
-        ],[
-            "adb","push","Helloworld.dex", "/data/local/tmp/"
-        ]
-    ]
+打包成`Helloworld.dex`<p>
+`adb shell` 进入 `shell`, 执行:
+```sh
+cd /data/local/tmp/
+app_process -Djava.class.path=Helloworld.dex  /data/local/tmp Helloworld
 ```
-adb shell 进入 shell, 执行:
-
-`cd /data/local/tmp/`
-
-`app_process -Djava.class.path=Helloworld.dex  /data/local/tmp Helloworld`
-
-可看到Helloworld输出
-```
-Hello, I am started by app_process!
-```
+可看到输出`Hello, I am started by app_process!`
 
 
 
 # 11. 了解CLASSPATH加载顺序
 * 通过编写一个同名（同包名，同类名）的class，编译成独立dex，安排CLASSPATH加载序的方式，替换掉APK原有类
   
-见mySmali
+见mySmali 的 substitute函数<p>
+编写`ToSubstitute.java` (in package com.example.helloworld)<p>
+在helloworld app 中添加 `Main class`
+```java
+package com.example.helloworld;
 
+public class Main {
+    public static void main(String[]args){
+        ToSubstitute.printSomeThing();
+    }
+}
+```
 
-[https://haruue.moe/blog/2017/08/30/call-privileged-api-with-app-process/]()
+同时添加`ToSubstitute`类
+```java
+package com.example.helloworld;
+
+public class ToSubstitute {
+    public static void printSomeThing() {
+        System.out.println("0000000");
+    }
+}
+```
+将apk打包安装<p>
+`pm path com.example.helloworld` 获得apk的安装路径:`/data/app/com.example.helloworld-Eej2w1kCoEuRTsDXw_jwDg==/base.apk`<p>
+
+编写用于替代apk的class
+```java
+package com.example.helloworld;
+
+public class ToSubstitute {
+    public static void printSomeThing() {
+        System.out.println("1111111");
+    }
+}
+```
+
+打包并push到`/data/local/tmp`目录下
+```python
+def substitute():
+    global commands
+    commands += [
+        [
+            "javac", "com/example/helloworld/ToSubstitute.java"
+        ], [
+            "dx", "--dex", "--output=substitute.dex", "com/example/helloworld/ToSubstitute.class"
+        ], [
+            "rm", "com/example/helloworld/ToSubstitute.class"
+        ], [
+            "adb", "push", "substitute.dex", "/data/local/tmp"
+        ], [
+            "rm", "substitute.dex"
+        ]
+    ]
+```
+
+执行命令
+```sh
+adb shell CLASSPATH=/data/local/tmp/substitute.dex:/data/app/com.example.helloworld-YG_wPqBjukAQsWxqLAXBlA==/base.apk exec app_process /system/bin com.example.helloworld.Main
+```
+
+即运行apk的`Main`类，但Main搜索到的`ToSubstitute.java`是事先打包好的dex中的那个版本，所以可以输出`1111111`
+
+<img src="sub.png" height="70" width="650">
+
+`CLASSPATH=p1:p2:p3` 的路径搜索顺序是 `p1->p2->p3`, 使用的类是第一次遇到的那个版本
